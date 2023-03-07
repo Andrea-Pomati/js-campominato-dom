@@ -32,12 +32,12 @@ main{
 }
 
 #grid {
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    width: 40%;
+    width: 30%;
     margin: auto;
 }
 
@@ -68,8 +68,20 @@ main{
     justify-content: center;
 }
 .active {
-    background-color: orange;
+    background-color: rgb(255, 0, 191);
 }
+
+.error {
+    background-color: red;
+}
+  
+#counter {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 2.5rem;
+}
+
+
 footer{
     padding: 5px;
     height: 5vh;
